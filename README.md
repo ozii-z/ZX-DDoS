@@ -1,6 +1,6 @@
-# LX-DDoS
+# ZX-DDoS
 
-**LX-DDoS** is a Python-based **DDoS Tool** for educational and testing purposes only.
+**ZX-DDoS** is a Python-based **DDoS Tool** for educational and testing purposes only.
 
 > **DISCLAIMER:**  
 > This repository is strictly for educational, research, and network testing purposes only.  
@@ -29,7 +29,7 @@ Repository: [https://github.com/Bogglo/LX-DDoS](https://github.com/Bogglo/LX-DDo
 
 ## Description
 
-**LX-DDoS** is a Distributed Denial of Service (DDoS) tool, written in Python, to help understand the mechanics of network stress testing and security evaluation.  
+**ZX-DDoS** is a Distributed Denial of Service (DDoS) tool, written in Python, to help understand the mechanics of network stress testing and security evaluation.  
 **Use only in controlled and legal environments.**
 
 ---
