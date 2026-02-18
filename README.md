@@ -6,7 +6,7 @@
 > This repository is strictly for educational, research, and network testing purposes only.  
 > **The author is not responsible for any misuse or illegal activities.**
 
-Repository: [https://github.com/Bogglo/LX-DDoS](https://github.com/Bogglo/LX-DDoS)
+Repository: [https://github.com/Bogglo/ZX-DDoS](https://github.com/Bogglo/ZX-DDoS)
 
 ---
 
@@ -56,7 +56,7 @@ Repository: [https://github.com/Bogglo/LX-DDoS](https://github.com/Bogglo/LX-DDo
 ### 1. Clone the Repository
 
 ```sh
-git clone https://github.com/Bogglo/LX-DDoS
+git clone https://github.com/Bogglo/ZX-DDoS
 cd LX-DDoS
 ```
 
@@ -77,7 +77,7 @@ pip install -r requirements.txt
 ```sh
 pkg update && pkg upgrade
 pkg install git python
-git clone https://github.com/Bogglo/LX-DDoS
+git clone https://github.com/Bogglo/ZX-DDoS
 cd LX-DDoS
 pip install -r requirements.txt
 python3 start.py
@@ -88,7 +88,7 @@ python3 start.py
 ```sh
 sudo apt update && sudo apt upgrade
 sudo apt install git python3 python3-pip
-git clone https://github.com/Bogglo/LX-DDoS
+git clone https://github.com/Bogglo/ZX-DDoS
 cd LX-DDoS
 pip3 install -r requirements.txt
 python3 start.py
@@ -99,7 +99,7 @@ python3 start.py
 1. Download & install [Python](https://www.python.org/downloads/).
 2. Open `cmd` or PowerShell and run:
     ```sh
-    git clone https://github.com/Bogglo/LX-DDoS
+    git clone https://github.com/Bogglo/ZX-DDoS
     cd LX-DDoS
     pip install -r requirements.txt
     python start.py
@@ -109,7 +109,7 @@ python3 start.py
 
 ```sh
 brew install git python3
-git clone https://github.com/Bogglo/LX-DDoS
+git clone https://github.com/Bogglo/ZX-DDoS
 cd LX-DDoS
 pip3 install -r requirements.txt
 python3 start.py
