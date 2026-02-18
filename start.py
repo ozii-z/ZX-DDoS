@@ -3,12 +3,15 @@ import concurrent.futures
 import time
 import random
 import logging
+import os
 from itertools import cycle
 
 MIN_DELAY = 0.1   # seconds
 MAX_DELAY = 1.0   # seconds
 
 def show_banner():
+    # Clear terminal before showing banner
+    os.system("cls" if os.name == "nt" else "clear")
     banner = r"""
  ███████████ █████ █████    ██████████   ██████████             █████████ 
 ░█░░░░░░███ ░░███ ░░███    ░░███░░░░███ ░░███░░░░███           ███░░░░░███
