@@ -57,7 +57,7 @@ Repository: [https://github.com/Bogglo/ZX-DDoS](https://github.com/Bogglo/ZX-DDo
 
 ```sh
 git clone https://github.com/Bogglo/ZX-DDoS
-cd LX-DDoS
+cd ZX-DDoS
 ```
 
 ### 2. Install Requirements
@@ -78,7 +78,7 @@ pip install -r requirements.txt
 pkg update && pkg upgrade
 pkg install git python
 git clone https://github.com/Bogglo/ZX-DDoS
-cd LX-DDoS
+cd ZX-DDoS
 pip install -r requirements.txt
 python3 start.py
 ```
@@ -89,7 +89,7 @@ python3 start.py
 sudo apt update && sudo apt upgrade
 sudo apt install git python3 python3-pip
 git clone https://github.com/Bogglo/ZX-DDoS
-cd LX-DDoS
+cd ZX-DDoS
 pip3 install -r requirements.txt
 python3 start.py
 ```
@@ -100,7 +100,7 @@ python3 start.py
 2. Open `cmd` or PowerShell and run:
     ```sh
     git clone https://github.com/Bogglo/ZX-DDoS
-    cd LX-DDoS
+    cd ZX-DDoS
     pip install -r requirements.txt
     python start.py
     ```
@@ -110,7 +110,7 @@ python3 start.py
 ```sh
 brew install git python3
 git clone https://github.com/Bogglo/ZX-DDoS
-cd LX-DDoS
+cd ZX-DDoS
 pip3 install -r requirements.txt
 python3 start.py
 ```
@@ -161,7 +161,7 @@ When running `start.py`, you will be **required** to enter the following (no opt
 
 > **For Educational Purposes Only!**
 >
-> LX-DDoS is designed for security researchers, network administrators, and students to understand DDoS methodologies in a safe, controlled environment.
+> ZX-DDoS is designed for security researchers, network administrators, and students to understand DDoS methodologies in a safe, controlled environment.
 >
 > **Do NOT use against networks, servers, or websites without explicit authorization. The author will not be held responsible for any misuse or damage caused by this tool.**
 
