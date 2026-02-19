@@ -50,7 +50,7 @@ Repository: [https://github.com/Bogglo/ZX-DDoS](https://github.com/Bogglo/ZX-DDo
 
 ### Prerequisites
 
-- `Python 3`
+- `Python 3.6+`
 - `pip` (Python package manager)
 
 ### 1. Clone the Repository
