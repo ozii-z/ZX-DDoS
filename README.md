@@ -36,7 +36,7 @@ Repository: [https://github.com/Bogglo/ZX-DDoS](https://github.com/Bogglo/ZX-DDo
 
 ## Screenshot
 
-![Screenshot](image.png)
+![Screenshot](File/screenshot.jpg)
 
 ---
 
