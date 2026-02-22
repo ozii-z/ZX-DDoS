@@ -10,7 +10,6 @@ MIN_DELAY = 0.1   # seconds
 MAX_DELAY = 1.0   # seconds
 
 def show_banner():
-    # Clear terminal before showing banner
     os.system("cls" if os.name == "nt" else "clear")
     banner = r"""
  ███████████ █████ █████    ██████████   ██████████             █████████ 
@@ -37,14 +36,18 @@ def load_user_agents(filename="user-agent.txt"):
         print(f"Error loading user agents: {e}")
         return ["Mozilla/5.0 (default UA)"]
 
-def send_request(url, req_id, ua_cycle):
+def send_request(url, req_id, ua_cycle, payload=None):
     delay = random.uniform(MIN_DELAY, MAX_DELAY)
     time.sleep(delay)
 
     headers = {"User-Agent": next(ua_cycle)}
     start = time.time()
     try:
-        response = requests.get(url, headers=headers, timeout=10)
+        # যদি payload না দেওয়া হয়, default {"test":"load"} যাবে
+        if payload is None:
+            payload = {"test": "load"}
+
+        response = requests.post(url, headers=headers, data=payload, timeout=10)
         elapsed = time.time() - start
 
         if response.status_code == 200:
